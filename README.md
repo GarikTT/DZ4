@@ -44,15 +44,14 @@
 	17. zpool import -d zpoolexport/
 	18. zpool import -d zpoolexport/ otus
 	19. zpool status
-#	20. zpool import -d zpoolexport/ otus newotus   ?????????!!!!!!!!! zpool import -d zpoolexport/ newotus // Надо создать пул newotus!!!
-	21. zpool get all otus
-	22. zfs get available otus
-	23. zfs get readonly otus
-	24. zfs get recordsize otus
-	25. zfs get compression otus
-	26. wget -O otus_task2.file --no-check-certificate "https://drive.google.com/u/0/uc?id=1gH8gCL9y7Nd5Ti3IRmplZPF1XjzxeRAG&export=download"
-	27. zfs receive otus/test@today < otus_task2.file
-	28. find /otus/test -name "secret_message" /otus/test/task1/file_mess/secret_message
-	29. cat /otus/test/task1/file_mess/secret_message
-	30. Про Украину прикольно.
-	31. scriptreplay --timing=time_homework_log homework.log -d 20
+	22. zpool get all otus
+	23. zfs get available otus
+	24. zfs get readonly otus
+	25. zfs get recordsize otus
+	26. zfs get compression otus
+	27. wget -O otus_task2.file --no-check-certificate "https://drive.google.com/u/0/uc?id=1gH8gCL9y7Nd5Ti3IRmplZPF1XjzxeRAG&export=download"
+	28. zfs receive otus/test@today < otus_task2.file
+	29. find /otus/test -name "secret_message"
+	30. cat /otus/test/task1/file_mess/secret_message
+	31. Про Украину прикольно.
+	32. scriptreplay --timing=time_homework_log homework.log -d 20
